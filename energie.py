@@ -2,7 +2,7 @@
 # encoding: utf-8
 import urllib                                       
 
-sock = urllib.urlopen("http://yourserver.comt/data/energie.php") 
+sock = urllib.urlopen("http://yourserver.com/data/energie.php") 
 
 htmlSource = sock.read()                            
 
